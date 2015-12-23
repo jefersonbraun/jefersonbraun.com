@@ -19,8 +19,13 @@ html {
         background-color: black !important;
     }
 
+.fixed-action-btn {
+    right: 0 !important;
+}
+
 .btn-hire-mobile {
     width: 100%;
+    border-radius: 0;
 }
 
 .playfair {
