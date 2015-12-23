@@ -32,6 +32,9 @@ html {
 .btn-hire-mobile {
     width: 100%;
     border-radius: 0;
+    height: 48px;
+    line-height: 48px;
+    font-size: 1.1em;
 }
 
 .playfair {
