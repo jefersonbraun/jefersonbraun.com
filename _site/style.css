@@ -34,11 +34,12 @@ html {
     border-radius: 0;
     height: 48px;
     line-height: 48px;
-    font-size: 1.1em;
+    text-transform: none;
 }
 
 .playfair {
     font-family: 'playfair display', 'georgia', serif;
+    font-style: italic;
 }
 
 .top-message {
