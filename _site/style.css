@@ -19,6 +19,10 @@ html {
         background-color: black !important;
     }
 
+.btn-hire-mobile {
+    width: 100%;
+}
+
 .playfair {
     font-family: 'playfair display', 'georgia', serif;
 }
