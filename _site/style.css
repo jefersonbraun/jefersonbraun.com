@@ -58,7 +58,7 @@ nav {
 }
 
 .main-image {
-    height: 436px;
+    height: 400px;
     overflow: hidden;
     background: no-repeat 0% 0%;
     background-size:cover;
@@ -66,21 +66,31 @@ nav {
 }
 
 .secondary-images {
-    height: 316px;
+    height: 300px;
     overflow: hidden;
     background: no-repeat 0% 0%;
     background-size:cover;
     background-position: center;
 }
 
+.card-content {
+        padding-left: 0 !important;
+    }
+
 .card-title {
-    line-height: 28px !important;
+    line-height: 24px !important;
 }
 
 .card-title .title {
-    font-weight: bold !important;
-    font-size: 42px !important;
-    line-height: 48px !important;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+@media only screen and (min-width : 993px) {
+    .flow-text {
+        font-size: 16px;   
+    }
 }
 
 @media only screen and (max-width : 600px) {
