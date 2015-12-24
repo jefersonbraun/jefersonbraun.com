@@ -57,6 +57,22 @@ nav {
     background-color: white;
 }
 
+.main-image {
+    height: 436px;
+    overflow: hidden;
+    background: no-repeat 0% 0%;
+    background-size:cover;
+    background-position: center;
+}
+
+.secondary-images {
+    height: 316px;
+    overflow: hidden;
+    background: no-repeat 0% 0%;
+    background-size:cover;
+    background-position: center;
+}
+
 .card-title {
     line-height: 28px !important;
 }
@@ -66,3 +82,58 @@ nav {
     font-size: 42px !important;
     line-height: 48px !important;
 }
+
+@media only screen and (max-width : 600px) {
+    
+    .main-image {
+        height: 200px;
+    }
+    
+    .secondary-images {
+        height: 200px;
+    }
+    
+    .card-content {
+        padding-left: 0 !important;
+    }
+    
+    .card-title .title {
+        font-size: 28px !important;
+        line-height: 31px !important;
+    }
+    
+}
+
+hr.style-one {
+    border: 0;
+    height: 1px;
+    background: #eee;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
